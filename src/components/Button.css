@@ -1,0 +1,18 @@
+.main-btn {
+  background: #cfc6f7;
+  color: #232a4d;
+  border: none;
+  border-radius: 18px;
+  padding: 12px 36px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 2px 4px 0 #23232322;
+  cursor: pointer;
+  margin-top: 18px;
+  transition: background 0.2s;
+}
+
+.main-btn.purple {
+  background: #a18aff;
+  color: #fff;
+}
