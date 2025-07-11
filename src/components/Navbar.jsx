@@ -6,7 +6,7 @@ export default function Navbar() {
   const location = useLocation();
   return (
     <nav className="navbar">
-      <div className="logo">Somya AI</div>
+      <div className="logo">Somya Lab</div>
       <ul className="nav-links">
         <li className={location.pathname === "/" ? "active" : ""}>
           <Link to="/">Home</Link>

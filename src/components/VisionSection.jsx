@@ -6,10 +6,10 @@ export default function VisionSection() {
   return (
     <section className="vision-section">
       <h2>
-        Simply Bringing Your <br />
-        Language To Life
+      Bringing Your Language to the  <br />
+      Digital World
       </h2>
-      <Button text="Just As You Imaged It" purple />
+      <Button text="Just As You Imaged It"  />
     </section>
   );
 }

@@ -14,7 +14,6 @@ export default function HeroSection() {
         <p className="hero-desc">
         Where tradition meets innovation—Somya builds intelligent solutions that bridge India’s linguistic diversity, enabling seamless, inclusive communication in every tongue.
         </p>
-        <Button text="Get Started" />
         <div className="worked-on">
           <span> </span>
         </div>

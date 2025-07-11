@@ -1,22 +1,27 @@
 .navbar {
   gap: 10px; /* or smaller if you want less */
-  justify-content: start;
+  justify-content: space-between;
   display: flex;
   align-items: center;
   background: transparent;
-  /*background: #e0c9a6; */
-  padding: 8px 24px;
-  border-radius: 24px;
-  margin: 12px auto 0 auto;
-  max-width: 1000px;
+  background: #f3f3f3;
+  padding: 24px 48px;
+  border-radius: 32px;
+  margin: 24px auto 0 auto;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  max-width: 1100px;
+  max-height: 100px;
+  box-shadow: 0 2px 8px #0001;
+  gap: 0px;
   /* box-shadow: 0 2px 8px #0001; */
-  box-shadow: none;
 }
 
 .logo {
   font-size: 1.8rem;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   display: flex;
   align-items: center; /* ensure it's aligned with nav */
 }
@@ -40,27 +45,34 @@
 /* Nav links */
 .nav-links {
   display: flex;
-  gap: 8px;
+  gap: 32px;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-right: 40px;
+  flex: 1;
 }
 
 .nav-links li, 
 .nav-links li a {
   color: #000;  
-  font-size: 1rem;
+  /*font-size: 1rem;
   cursor: pointer;
   padding: 8px 20px;
   border-radius: 50px;
   font-weight: 500;
-  transition: background 0.2s;
+  transition: background 0.2s;*/
 }
 
-.nav-links .active,
+.nav-links .active > a,
+.nav-links li:hover > a,
+.nav-links li.active,
 .nav-links li:hover {
-  background: #9cd5f6;
-  color: white;
+  background: none;
+  color: #232a4d;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 3px;
 }
 
 /* Let's Talk Button */
@@ -73,8 +85,7 @@
   font-size: 1rem;
   font-weight: 600;
   box-shadow: 4px 4px 0 #000;
-  transition: all 0.2s ease;
-  gap: 16px;
+  transition: all 0.2s ease;  
 }
 
 .talk-btn:hover {

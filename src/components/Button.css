@@ -1,5 +1,5 @@
 .main-btn {
-  background: #cfc6f7;
+  background: #ffffff;
   color: #232a4d;
   border: none;
   border-radius: 18px;
@@ -13,6 +13,6 @@
 }
 
 .main-btn.purple {
-  background: #a18aff;
+  background: #ffffff;
   color: #fff;
 }

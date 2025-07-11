@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import ClientsBar from "./components/ClientsBar";
-import BrandSection from "./components/BrandSection";
+import CardCarousel from "./components/CardCarousel";
 import VisionSection from "./components/VisionSection";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -18,8 +18,7 @@ function App() {
           <Route path="/" element={
             <>
               <HeroSection />
-              <ClientsBar />
-              <BrandSection />
+              <CardCarousel />
               <VisionSection />
             </>
           } />

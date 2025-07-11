@@ -16,3 +16,7 @@
   object-fit: contain;
   filter: grayscale(1);
 }
+
+.clients-bar-wrapper {
+  margin-bottom: 10px;
+}
